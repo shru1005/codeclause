@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .header {
+      background-color: purple;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .header-tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .tab-btn {
+      padding: 10px 20px;
+      background-color: #08000c;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 0 10px;
+    }
+
+    .tab-btn:hover {
+      background-color: #6c3483;
+    }
+
+    .task-bar {
+      background-color: #8e44ad;
+      padding: 10px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      background-color: rgb(204, 182, 204);
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #6c3483;
+    }
+
+    .feature-section {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .feature-item {
+      margin-bottom: 30px;
+    }
+
+    .feature-icon {
+      font-size: 2rem;
+      color: purple;
+    }
+
+    .feature-title {
+      font-size: 1.5rem;
+      color: purple;
+      margin-bottom: 10px;
+    }
+
+    .feature-description {
+      color: #555555;
+    }
+
+    .footer {
+      background-color: purple;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    /* Additional styles for info boxes */
+    .info-box {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .info-icon {
+      font-size: 2rem;
+      color: #8e44ad;
+      margin-right: 10px;
+    }
+
+    .info-content {
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Learn with us</h1>
+    <div class="header-tabs">
+      <button class="tab-btn">Home</button>
+      <button class="tab-btn">Features</button>
+      <button class="tab-btn">Pricing</button>
+      <button class="tab-btn">Contact</button>
+    </div>
+  </div>
+
+  <div class="task-bar">
+    <button class="btn">Sign In</button>
+    <button class="btn">Sign Up</button>
+  </div>
+
+  <section class="feature-section">
+    <div class="info-box">
+      <span class="info-icon"><i class="fas fa-gem"></i></span>
+      <div class="info-content">
+        <h2 class="feature-title">About us</h2>
+        <p class="feature-description">An online learning platform is an information system that provides a safe learning environment where students can take online courses.
+
+          Such online learning platforms are often called ‘online course marketplaces’ because they give learners the opportunity to search for and pay for online courses directly.
+          
+          While some of these course marketplaces are used to feature online courses that you can create, the majority are more educational-based and strictly offer university-level education.</p>
+      </div>
+    </div>
+    <div class="info-box">
+      <span class="info-icon"><i class="fas fa-heart"></i></span>
+      <div class="info-content">
+        <h2 class="feature-title">Pricing</h2>
+        <p class="feature-description">LinkedIn Learning comes with two subscription plans for students:
+
+          Monthly: 1-month free trial, then €39,33/month
+          Annually: 1-month free trial, then €19,66/month
+          *Pricing information retrieved from LinkedIn Learning on January 28, 2023.</p>
+      </div>
+    </div>
+    <!-- Add more info boxes as needed -->
+  </section>
+
+  <section class="feature-section">
+    <div class="feature-item">
+      <span class="feature-icon">🚀</span>
+      <h2 class="feature-title">Our Qualities</h2>
+      <p class="feature-description">fully dedicated</p>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">💡</span>
+      <h2 class="feature-title">Our dedication</h2>
+      <p class="feature-description">Work for as many hours with the students</p>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🎉</span>
+      <h2 class="feature-title">Costing</h2>
+      <p class="feature-description">Very low costing for our students</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Contact us at contact@learnwithus.com</p>
+  </footer>
+</body>
+</html>
